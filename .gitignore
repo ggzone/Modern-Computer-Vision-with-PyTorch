@@ -10,3 +10,10 @@ Chapter08/ssd-utils/
 Chapter08/open-images-bus-trucks/
 Chapter09/dataset1.zip
 Chapter09/dataset1/
+Chapter09/__pycache__/
+Chapter09/annotations_instance.tar
+Chapter09/annotations_instance/
+Chapter09/ch9-3.pth
+Chapter09/coco.log
+Chapter09/images.tar
+Chapter09/images/

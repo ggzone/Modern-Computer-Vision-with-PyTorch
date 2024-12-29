@@ -86,3 +86,26 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
  <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
 <p align="center"> <a href="https://packt.link/free-ebook/9781839213472">https://packt.link/free-ebook/9781839213472 </a> </p>
+
+```bash
+pip install opencv-python-headless
+pip install kagglehub
+pip install torch_summary
+```
+
+```python
+import torch
+import torch.nn as nn
+from torchvision import transforms as T
+from torch.nn import functional as F
+from torch.utils.data import Dataset
+from torch.utils.data import DataLoader
+from torch_snippets.torch_loader import Report
+from torchsummary import summary
+
+from google.colab import drive
+drive.mount('/content/drive/')
+# !mkdir -p /content/drive/MyDrive/mcvp-packt/Chapter12/
+!cp /content/drive/MyDrive/mcvp-packt/Chapter12/male-and-female-faces-dataset.zip ./
+!unzip male-and-female-faces-dataset.zip
+```
